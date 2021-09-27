@@ -1,0 +1,19 @@
+
+.section-1{
+    background-image: url(images/bild\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.section-2{
+    background-image: url(images/hav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.section-3{
+    background-image: url(images/skog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
