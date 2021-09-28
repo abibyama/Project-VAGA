@@ -1,21 +1,22 @@
-/* .button{
-    text-decoration: none;
-} */
+h1{
+    margin: 10px 10px;
+}
 .section-1{
     background-image: url(images/bild\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    /* width: 100%; */
     height: 600px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
 }
 .top-content{
-    width: 250px;
+    max-width: 300px;
+    background-color: tan;
+    padding: 0px 20px;
+    text-align: center;
 }
 .container-1{
     font-weight: 900;
@@ -24,26 +25,16 @@
     font-style: oblique;
 }
 #product-button{
-    height: 50px;
-    padding: 10px 80px;
-    
+    color: black;
+    background-color: rgb(76, 94, 59);
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 25px 10px;
 }
 .section-2{
     display: flex;
     flex-wrap: nowrap;
-    
-    
-    /* background-image: url(images/hav.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; */
-    /* height: 600px;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center; */
-    /* align-self: center; */
 }
-
 .hav-bild{
     background-image: url(images/hav.jpg);
     background-repeat: no-repeat;
@@ -57,44 +48,26 @@
     align-items: center;
     text-align: center;
 }
+.hav-text{
+    background-color: rgb(59, 104, 155);
+}
 #tval-hav{
     height: 600px;
-    width: auto;
-
-    /* align-items: flex-end; */
-}
-#hav{
-    height: 600px;
-    /* max-width: 70%; */
-}
-.main-content-1{
-    /* background-image: url(images/hav.jpg); */
-    /* display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    width: 250px; */
+    max-width: 400px;
 }
 .container-2{
     width: 300px;
-    /* display: flex;
-    flex-wrap: wrap; */
 }
 #shop-button{
-    height: 50px;
-    padding: 10px 100px;
-    align-self: center;
+    color: black;
+    background-color: tan;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 25px;
 }
 .section-3{
     display: flex;
     flex-wrap: nowrap;
-    /* background-image: url(images/skog.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 600px;
-    width: 100%;
-    display: grid; */
 }
 .skog-bild{
     background-image: url(images/skog.jpg);
@@ -112,42 +85,11 @@
 #tval-skog{
     height: 600px;
     width: auto;
-
+    
 }
 .skog-text{
-    /* display: flex;
-    flex-wrap: nowrap; */
+    background-color: rgb(76, 94, 59);
 }
 .container-3{
     width: 300px;
 }
-
-/* #skog{
-    height: 600px;
-    
-} */
-/* 
-*/
-/*  
-}
-.tval-skog{
-    place-self: center;
-}  */
-
-/* dator 960px och upp */
-/* @media screen and (min-width: 960px) {
-    .section-1{
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        grid-area: ;
-     }
-}
-/* tablet 768-960px */
-/* @media screen and (max-width: 960px) {
-    
-} */
-/* mobil 768 och ner */
-/* @media screen and (max-width: 768px) {
-    
-} */
-
