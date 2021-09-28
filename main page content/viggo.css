@@ -1,19 +1,147 @@
-
+.button{
+    text-decoration: none;
+}
 .section-1{
     background-image: url(images/bild\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
     height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.top-content{
+    width: 250px;
+}
+.container-1{
+    font-size: 30px;
+}
+#product-button{
+    height: 50px;
+    padding: 10px 80px;
+    
 }
 .section-2{
+    display: flex;
+    flex-wrap: nowrap;
+    
+    
+    /* background-image: url(images/hav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    /* height: 600px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center; */
+    /* align-self: center; */
+}
+
+.hav-bild{
     background-image: url(images/hav.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 600px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+#tval-hav{
+    height: 600px;
+    width: auto;
+
+    /* align-items: flex-end; */
+}
+#hav{
+    height: 600px;
+    /* max-width: 70%; */
+}
+.main-content-1{
+    /* background-image: url(images/hav.jpg); */
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 250px; */
+}
+.container-2{
+    width: 300px;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+#shop-button{
+    height: 50px;
+    padding: 10px 100px;
+    align-self: center;
 }
 .section-3{
+    display: flex;
+    flex-wrap: nowrap;
+    /* background-image: url(images/skog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+    display: grid; */
+}
+.skog-bild{
     background-image: url(images/skog.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 600px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
 }
+#tval-skog{
+    height: 600px;
+    width: auto;
+
+}
+.skog-text{
+    /* display: flex;
+    flex-wrap: nowrap; */
+}
+.container-3{
+    width: 300px;
+}
+
+/* #skog{
+    height: 600px;
+    
+} */
+/* 
+*/
+/*  
+}
+.tval-skog{
+    place-self: center;
+}  */
+
+/* dator 960px och upp */
+/* @media screen and (min-width: 960px) {
+    .section-1{
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-area: ;
+     }
+}
+/* tablet 768-960px */
+/* @media screen and (max-width: 960px) {
+    
+} */
+/* mobil 768 och ner */
+/* @media screen and (max-width: 768px) {
+    
+} */
+
