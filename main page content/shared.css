@@ -1,5 +1,5 @@
 h1{
-    font-size: 48px;
+    font-size: 36px;
     /* elegant font */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     font-weight: 100; 
@@ -9,8 +9,8 @@ a{
 }
 p{
     /* elegant och bra för responviv */
-    font: georgia, serif;
-    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 #header-shop,
 #header-about{
@@ -39,7 +39,7 @@ header{
     grid-template-columns: repeat(3, 33%);
     justify-content: center;
     justify-items: center;
-    background-color: #4c5e3b;
+    background-color: rgb(76, 94, 59);
     align-content: center;
     align-items: center;
 }
