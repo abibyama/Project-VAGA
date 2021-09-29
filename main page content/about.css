@@ -70,9 +70,12 @@ p {
 }
 .point-btn:hover {
     color: white;
-    background-color: green;
-   
+    background-color: green; 
 }
+.icons {
+    color: green;
+    text-align: center;
+    }
 
 @media(min-width: 700px){
     .col{
