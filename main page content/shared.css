@@ -53,3 +53,19 @@ footer{
     align-items: center;
     position: absolute;
 }
+@media screen and (max-width: 960px) {
+    header{
+        height: 76px;
+    }
+    #logo{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    header{
+        height: 52px;
+    }
+    footer{
+        height: 32px;
+    }
+}
