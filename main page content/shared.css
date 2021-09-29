@@ -1,6 +1,6 @@
 h1{
     font-size: 36px;
-    /* elegant font */
+    /* elegant font, lyxig, exklusiv */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     font-weight: 100; 
 }
@@ -25,7 +25,7 @@ p{
 }
 #logo{
     font-size: 48px;
-    /* elegant */
+    /*elegant font, lyxig, exklusiv*/
     font-style: italic;
     color: black;
 }
@@ -51,4 +51,5 @@ footer{
     grid-template-columns: repeat(4, 25%); 
     justify-items: center;
     align-items: center;
+    position: absolute;
 }
