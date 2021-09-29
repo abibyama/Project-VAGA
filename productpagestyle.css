@@ -1,20 +1,25 @@
-html, body {
+/* html, body {
     height: 100%;
     width: 100%;
     margin: 0;
 
-}
+} */
 
 #container {
     max-width: 1200px;
+  height: 1200px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 200px;
   display: flex;
+  border: 2px solid #E1E8EE;
+  border-radius: 6px;
+  color: #5E6977;
+  background-color: #fff;
 }
 
 .left-column {
     width: 65%;
-    position: relative;
+    /* position: relative; */
   }
    
   .right-column {
@@ -26,7 +31,7 @@ html, body {
   .left-column img {
     width: 50%;
     height: 400px;
-    position: absolute;
+    /* position: absolute; */
   }
 
   .product-description {
@@ -125,7 +130,7 @@ html, body {
     .left-column img {
       width: 70%;
       height: 400px;
-      position: absolute;
+      /* position: absolute; */
     }
   }
 
@@ -144,7 +149,7 @@ html, body {
         width: 70%;
         height: 400px;
         left: initial;
-        position: absolute;
+        /* position: absolute; */
       }
   }
 
@@ -161,9 +166,8 @@ html, body {
    
     .left-column img {
       width: 70%;
-       padding-top: 50px;
       height: 400px;
-      position: absolute;
+      /* position: absolute; */
     }
   }
 
@@ -180,10 +184,10 @@ html, body {
      
       .left-column img {
         width: 70%;
-        padding-top: 50px;
+        padding-top: 20px;
         height: 400px;
         left: initial;
-        position: absolute;
+        /* position: absolute; */
       }
 }
 
@@ -203,6 +207,6 @@ html, body {
         padding-top: 100px;
         height: 400px;
         left: initial;
-        position: absolute;
+        /* position: absolute; */
       }
     }
