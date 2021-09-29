@@ -31,7 +31,7 @@ p{
 }
 
 header{
-    position: fixed ;
+    position: sticky;
     top: 0;
     height: 76px;
     width: 100%;
@@ -45,7 +45,7 @@ header{
 }
 footer{
     background-color: rgb(59, 104, 155);
-    height: 100px;
+    height: 76px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 25%); 
