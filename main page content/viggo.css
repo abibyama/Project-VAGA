@@ -93,14 +93,14 @@ h1{
     header{
         height: 52px
     }
-    footer{
-        height: ;
+    .section-1{
+        height: 350px;
     }
 }
 /* mobile */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     header{
-        height: 32px;
+        height: 52px;
     }
     #logo{
         font-size: 20px;
@@ -126,9 +126,9 @@ h1{
         background-position: center;
     }
     footer{
-        height: 50px;
+        height: 32px;
     }
     .top-content{
-        background-color: transparen;
+        
     }
 }
