@@ -18,11 +18,11 @@
     padding-top: 0px;
     padding-bottom: 0px;
     background-color: #dedede;
-    background-image: url("about-pic.jpg");
+    background-image: url("images/about-pic.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
-    position: relative;
+    /* position: relative; */
     font-family: cursive;
     
 }
