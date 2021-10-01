@@ -1,16 +1,19 @@
+body{
+    margin: 0;
+}
 h1{
     margin: 10px 10px;
 }
 .section-1{
     background-image: url(images/bild\ 1.jpg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 600px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 .top-content{
     max-width: 300px;
@@ -37,9 +40,11 @@ h1{
 }
 .hav-bild{
     background-image: url(images/hav.jpg);
+    flex-grow: 1;
 }
 .hav-bild,
-.skog-bild{
+.skog-bild,
+.section-1{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -74,6 +79,7 @@ h1{
 }
 .skog-bild{
     background-image: url(images/skog.jpg);
+    flex-grow: 1;
 }
 #tval-skog{
     height: 600px;
