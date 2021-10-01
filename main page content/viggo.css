@@ -56,6 +56,7 @@ h1{
 }
 #tval-hav{
     height: 600px;
+    width: 30%;
 }
 .container-2{
     width: 300px;
@@ -76,6 +77,7 @@ h1{
 }
 #tval-skog{
     height: 600px;
+    width: 30%;
 }
 .skog-text{
     background-color: rgb(76, 94, 59);
@@ -87,6 +89,10 @@ h1{
 @media screen and (max-width: 960px) {
     .section-1{
         height: 350px;
+    }
+    #tval-hav,
+    #tval-skog{
+        width: 40%;
     }
 }
 /* mobile */
